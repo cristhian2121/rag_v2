@@ -1,0 +1,24 @@
+[project]
+name = "platzy_agents_ai"
+version = "0.1.0"
+description = "LangChain agents course project"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.2.0",
+    "langchain-openai>=1.1.6",
+    "langchain-community>=1.2.0",
+    "chromadb>=1.4.0",
+    "langchain-chroma>=1.0.0",
+    "pinecone-client>=6.0.0",
+    "python-dotenv>=1.2.1",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+    "PyPDF2==6.5.0",
+    "langchain-openai==1.1.6",
+]
+[tool.hatch.build.targets.wheel]
+packages = []
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
